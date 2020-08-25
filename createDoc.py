@@ -14,6 +14,8 @@ docHeader = input('What is the paper Title?' )
 docFontSize = input('What is the doc font size?' )
 docFontType = input('What is the font type?' )
 
+
+
 doc.add_heading(docHeader)
 doc.save(docName)
 
